@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <main id="main-doc">
+        <nav id="navbar">
+            <header class="menu-header">HTML Documentation</header>
+            <ul class="nav-list">
+                <li><a class="nav-link" href="#Introduction_to_HTML">Introduction to HTML</a></li>
+                <li><a class="nav-link" href="#HTML_Tags">HTML Tags</a></li>
+                <li><a class="nav-link" href="#HTML_Structure">HTML Structure</a></li>
+                <li><a class="nav-link" href="#Headings_and_Paragraphs">Headings and Paragraphs</a></li>
+                <li><a class="nav-link" href="#Images">Images</a></li>
+                <li><a class="nav-link" href="#Forms">Forms</a></li>
+                <li><a class="nav-link" href="#HTML_Attributes">HTML Attributes</a></li>
+                <li><a class="nav-link" href="#HTML_Classes_and_IDs">HTML Classes and IDs
+                    </a></li>
+                <li><a class="nav-link" href="#HTML_Comments">HTML Comments</a></li>
+                <li><a class="nav-link" href="#HTML_Semantics">HTML Semantics</a></li>
+                <li><a class="nav-link" href="#Conclusion">Conclusion</a></li>
+            </ul>
+        </nav>
+        <section class="main-section" id="Introduction_to_HTML">
+            <header>Introduction to HTML</header>
+            <p>HTML (Hypertext Markup Language) is a markup language used to create web pages. HTML is the foundation of
+                all websites, and it is used to create the structure and content of a web page. HTML consists of a set
+                of tags that define the different elements of a web page.</p>
+        </section>
+        <section class="main-section" id="HTML_Tags">
+            <header>HTML Tags</header>
+            <p>HTML tags are used to define different elements of a web page. Tags are enclosed in angle brackets (<>)
+                    and can have attributes that provide additional information about the element. For example, the
+                    &#60;p&#62; tag is used to define a paragraph and can have attributes such as align and style.</p>
+        </section>
+        <section class="main-section" id="HTML_Structure">
+            <header>HTML Structure</header>
+            <p>An HTML document is structured using a set of tags that define the different elements of the document.
+                The basic structure of an HTML document consists of the &#60;html&#62;, &#60;head&#62;, and
+                &#60;body&#62; tags. The &#60;html&#62; tag defines the start and end of the document, while the
+                &#60;head&#62; tag contains information about the document, such as the title and any links to
+                stylesheets or scripts. The &#60;body&#62; tag contains the content of the document.</p>
+        </section>
+        <section class="main-section" id="Headings_and_Paragraphs">
+            <header>Headings and Paragraphs</header>
+            <p>Headings and paragraphs are essential elements of a web page. Headings are used to define the different
+                sections of a page and can range from &#60;h1> to &#60;h6>, with &#60;h1> being the largest and most
+                important heading. Paragraphs are used to display text and can be defined using the &#60;p> tag.</p>
+            <ul>
+                <li>Headings provide a clear structure for content on a webpage, making it easier for users to navigate
+                    and understand the information presented.</li>
+                <li>Paragraphs are used to display large blocks of text, such as articles or blog posts.</li>
+            </ul>
+        </section>
+        <section class="main-section" id="Images">
+            <header>Images</header>
+            <p>Images are an important part of web pages and can be used to display graphics, logos, and other visual
+                elements. The &#60;img> tag is used to display an image, and the src attribute is used to specify the
+                path to the image file. Images can also have an alt attribute, which provides a text description of the
+                image.</p>
+            <ul>
+                <li>Images can enhance the visual appeal of a webpage and provide additional information to users.</li>
+                <li>The alt attribute is important for accessibility, as it provides a text description of the image for
+                    users who are visually impaired or using screen readers.</li>
+            </ul>
+        </section>
+        <section class="main-section" id="Forms">
+            <header>Forms</header>
+            <p>Forms are used to collect user input and are an essential element of web applications. Forms consist of
+                form controls, such as text boxes, radio buttons, checkboxes, and buttons. The &#60;form> tag is used to
+                create a form, while the form controls are defined using various tags, such as &#60;input> and
+                &#60;select>.</p>
+            <pre><code>&lt;form action=&quot;/submit-form&quot; method=&quot;POST&quot;&gt;
+  &lt;label for=&quot;name&quot;&gt;Name:&lt;/label&gt;
+  &lt;input type=&quot;text&quot; id=&quot;name&quot; name=&quot;name&quot; required&gt;
+
+  &lt;label for=&quot;email&quot;&gt;Email:&lt;/label&gt;
+  &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; required&gt;
+
+  &lt;label for=&quot;message&quot;&gt;Message:&lt;/label&gt;
+  &lt;textarea id=&quot;message&quot; name=&quot;message&quot; required&gt;&lt;/textarea&gt;
+
+  &lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;
+&lt;/form&gt;</code></pre>
+        </section>
+        <section class="main-section" id="HTML_Attributes">
+            <header>HTML Attributes</header>
+            <p>HTML attributes provide additional information about an element. Attributes are defined within the
+                opening tag of an element, and their values are enclosed in quotation marks. For example, the &lt;a&gt;
+                tag can have an attribute called "title", which specifies the title of the linked page. Attributes can
+                also be used to add styles to an element using the "style" attribute, which takes CSS styles as its
+                value.</p>
+            <pre><code>&lt;a href=&quot;https://www.example.com&quot; title=&quot;Visit Example&quot;&gt;Example&lt;/a&gt;</code></pre>
+            <ul>
+                <li>Attributes provide additional information about HTML elements, making it easier to style and
+                    manipulate them with CSS and JavaScript.</li>
+                <li>The class attribute can be used to apply the same style to multiple elements, while the id attribute
+                    is used to uniquely identify an element for use with JavaScript.</li>
+            </ul>
+        </section>
+        <section class="main-section" id="HTML_Classes_and_IDs">
+            <header>HTML Classes and IDs</header>
+            <p>HTML classes and IDs are used to add styles to elements. Classes and IDs are defined within the opening
+                tag of an element using the "class" and "id" attributes, respectively. Classes are used to group
+                elements together, while IDs are used to identify a specific element. Styles can then be applied to
+                these classes and IDs using CSS.</p>
+            <pre><code>&lt;div class=&quot;container&quot; id=&quot;main-container&quot;&gt;
+  &lt;h1&gt;Welcome to My Website&lt;/h1&gt;
+  &lt;p&gt;This is the main content of my website.&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+        </section>
+        <section class="main-section" id="HTML_Comments">
+            <header>HTML Comments</header>
+            <p>HTML comments are used to add notes and comments to an HTML document. Comments are enclosed within
+                &lt;!-- and --&gt; tags and are not displayed on the web page. Comments are useful for adding notes to
+                the code or disabling specific code temporarily.</p>
+            <pre><code>&lt;!-- This is a comment. It will not be displayed on the webpage. --&gt;
+
+&lt;p&gt;This is a paragraph.&lt;/p&gt;
+
+&lt;!--
+&lt;p&gt;This paragraph is commented out and will not be displayed.&lt;/p&gt;
+--&gt;
+
+&lt;p&gt;This is another paragraph.&lt;/p&gt;</code></pre>
+        </section>
+        <section class="main-section" id="HTML_Semantics">
+            <header>HTML Semantics</header>
+            <p>HTML semantics refers to the meaning and purpose of HTML elements. Semantic HTML is important for
+                accessibility and search engine optimization. HTML5 introduced new semantic elements such as
+                &lt;header&gt;, &lt;footer&gt;, &lt;section&gt;, &lt;article&gt;, and &lt;nav&gt;, which are used to
+                define the structure of a web page.</p>
+            <pre><code>&lt;header&gt;
+  &lt;h1&gt;My Website&lt;/h1&gt;
+  &lt;nav&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/nav&gt;
+&lt;/header&gt;
+
+&lt;section&gt;
+  &lt;article&gt;
+    &lt;h2&gt;Article Title&lt;/h2&gt;
+    &lt;p&gt;Article content goes here.&lt;/p&gt;
+  &lt;/article&gt;
+&lt;/section&gt;
+
+&lt;footer&gt;
+  &lt;p&gt;&amp;copy; 2023 My Website. All rights reserved.&lt;/p&gt;
+&lt;/footer&gt;</code></pre>
+        </section>
+        <section class="main-section" id="Conclusion">
+            <header>Conclusion</header>
+            <p>HTML is a versatile and essential language for building web pages. Understanding the various HTML
+                elements, attributes, and APIs is crucial to creating dynamic and interactive web pages. With HTML, web
+                developers can create accessible and search engine optimized web pages that are compatible with
+                different web browsers and devices.</p>
+        </section>
+    </main>
+</body>
+
+</html>

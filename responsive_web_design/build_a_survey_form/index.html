@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Tour Experience Survey Form</title>
+</head>
+
+<body>
+    <h1 id="title">Tour Experience Survey Form</h1>
+    <p id="description">Thank you for sharing your experience!</p>
+    <fieldset>
+        <form id="survey-form">
+            <label id="name-label" for="name">Name<input class="inputbox" id="name" type="text"
+                    placeholder="Enter your name" required></label>
+            <label id="email-label" for="email">Email<input class="inputbox" id="email" type="email"
+                    placeholder="Enter your Email" required>
+            </label>
+            <label class="forspace" id="number-label" for="number">Age (optional)<input class="inputbox" id="number"
+                    type="number" placeholder="Age" pattern="[0-9]" min="18" max="120"></label>
+            <label class="forspace" for="dropdown">Which option best describes your current role?<select
+                    class="inputbox" name="role" id="dropdown">
+                    <option disabled selected>Select current role</option>
+                    <option value="job">Full Time Job</option>
+                    <option value="student">Student</option>
+                    <option value="other">Other</option>
+                    <option value="nothing">Prefer not to say</option>
+                </select></label>
+            <label>Would you recommend our tour to a friend?</label>
+            <label><input class="radio" type="radio" name="radio" value="definitely" checked>Definitely</label>
+            <label><input class="radio" type="radio" name="radio" value="maybe">Maybe</label>
+            <label class="forspace"><input class="radio" type="radio" name="radio" value="notsure">Not Sure</label>
+            <label>What would you like to see improved? (Check all that apply)</label>
+            <label><input class="checkbox" type="checkbox" value="tourguides">
+                Tour Guides</label>
+            <label><input class="checkbox" type="checkbox" value="tourstops">
+                Tour Stops</label>
+            <label><input class="checkbox" type="checkbox" value="tourdates">
+                Tour Dates</label>
+            <label><input class="checkbox" type="checkbox" value="socialmedia">
+                Social Media</label>
+            <label class="forspace"><input class="checkbox" type="checkbox" value="accommodations">
+                Accommodations</label>
+            <label>Any comments or suggestions?<textarea rows="4" cols="30" id="comments" name="comment"
+                    placeholder="Enter your comment here..."></textarea>
+            </label>
+            <label><button type="submit" id="submit">Submit</button>
+            </label>
+        </form>
+    </fieldset>
+</body>
+
+</html>

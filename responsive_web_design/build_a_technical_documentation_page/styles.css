@@ -1,0 +1,132 @@
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    padding-bottom: 50px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding-left: 20px;
+    position: fixed;
+    top: 40px;
+    font-size: 17px;
+    width: 270px;
+    padding-top: 0;
+    left: 0%;
+    height: 88%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.main-section {
+    margin-left: 20rem;
+    height: 100%;
+    margin-top: 15px;
+    position: relative;
+    left: 20px;
+    padding-right: 35px;
+}
+
+.menu-header {
+    border-right: 3px solid #2E2C2C;
+    width: 270px;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding-top: 15px;
+    padding-left: 20px;
+    margin-left: 0%;
+    height: 100%;
+    font-weight: 540;
+}
+
+#Introduction_to_HTML {
+    margin-top: 30px;
+}
+
+header {
+    font-size: 25px;
+}
+
+p {
+    padding-left: 14px;
+    color: #2E2C2C;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+pre {
+    padding-left: 20px;
+    background-color: #E3DDDD;
+    border-radius: 8px;
+    padding: 10px;
+    white-space: pre-line;
+    word-break: normal;
+    word-wrap: normal;
+}
+
+.main-section>ul {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #2E2C2C;
+}
+
+.main-section ul li:not(:last-child) {
+    padding-bottom: 15px;
+}
+
+.nav-list>li {
+    padding-bottom: 20px;
+}
+
+.main-section header {
+    padding-top: 30px;
+}
+
+a {
+    display: inline-block;
+    border-top: 1px solid;
+    width: 100%;
+    margin-left: -20px;
+    padding-top: 14px;
+    padding-left: 22px;
+    color: #2E2C2C;
+    text-decoration: none;
+}
+
+@media (max-width: 815px) {
+    .nav-list {
+        position: static;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 30px;
+        height: 230px;
+        width: 95%;
+        border-bottom: 2px solid;
+        border-top: 2px solid;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    .menu-header {
+        margin: 0 auto;
+        position: static;
+        font-size: 27px;
+        border: none;
+    }
+
+    .main-section {
+        position: static;
+        margin: 0 30px;
+        padding: 0;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    #Introduction_to_HTML {
+        margin-top: 10px;
+    }
+}

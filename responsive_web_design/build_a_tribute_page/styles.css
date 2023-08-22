@@ -1,0 +1,78 @@
+h1,
+.subtext {
+    text-align: center;
+}
+
+.subtext {
+    margin-top: -10px;
+}
+
+#image {
+    width: 65%;
+    height: auto;
+    object-fit: cover;
+    margin: auto;
+    display: block;
+    padding-top: 30px;
+    max-width: 100%;
+}
+
+#img-caption {
+    text-align: center;
+    padding-top: 8px;
+
+}
+
+#img-div {
+    background-color: white;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+main {
+    background-color: #E8E8E8;
+    border-radius: 10px;
+    margin-top: 20px;
+    overflow: hidden;
+    font-family: 'Segoe UI';
+}
+
+#tribute-info {
+
+    padding-top: 20px;
+}
+
+.boldheader {
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+}
+
+fieldset {
+    width: 50%;
+    margin: auto;
+    border: 0;
+}
+
+li {
+    padding-bottom: 25px;
+}
+
+.initial {
+    padding-top: 30px;
+}
+
+.quote,
+.quoteperson {
+    list-style-type: none;
+}
+
+.quote {
+    padding-top: 25px;
+}
+
+.lastpart {
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+}
